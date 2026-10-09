@@ -74,6 +74,12 @@ The documented model follows a star-schema structure with descriptive dimensions
 - `Dynamic_Category_Turnover` — Provides a category-level turnover indicator.
 
 **Outcome:** Establishes the analytical foundation and baseline inventory and logistics visibility for subsequent milestones.
+## 📸 Project Screenshots
+
+### Milestone 1: Supply Chain Visibility & Inventory Turnover
+
+<img src="screenshots/milestone-1.png" alt="Milestone 1 - Inventory and Supply Chain Visibility" width="100%"/>
+
 
 ### Milestone 2 — Inventory & Delivery Performance Analytics
 
@@ -153,6 +159,12 @@ The full-year report records approximately:
 The documented recent-period comparisons show how workload and delivery performance vary over time.
 
 **Outcome:** Adds a delivery-performance layer that helps investigate service-level performance, delay severity, and changes across periods.
+## 📸 Project Screenshots : Milestone 2: Inventory & Delivery Performance Analytics
+
+<img src="screenshots/milestone-2.png" alt="Milestone 2 - Delivery Performance Analytics" width="100%"/>
+
+
+
 
 ### Milestone 3 — Transportation & Supplier Performance Analytics
 
@@ -282,6 +294,12 @@ These are documented dashboard values under the selected analytical context. The
 
 **Outcome:** Connects transportation expenditure, shipment activity, supplier reliability, and disruption exposure within a unified analytical framework.
 
+## 📸 Project Screenshots : Milestone 3: Transportation & Supplier Performance Analytics
+
+<img src="screenshots/milestone-3.png" alt="Milestone 3 - Transportation and Supplier Analytics" width="100%"/>
+
+
+
 ### Milestone 4 — Warehouse Analytics & Performance Optimization
 
 **Objective:** Extend supply chain analysis to warehouse capacity, operational expenditure, fulfillment accuracy, and facility-level performance.
@@ -337,6 +355,20 @@ The documented operational-cost approach combines facility baseline cost, per-un
 
 **Outcome:** Extends the analytical system from transaction and logistics analysis to warehouse-level operational performance and optimization.
 
+## 📸 Project Screenshots: Milestone 4: Warehouse Analytics & Performance Optimization
+
+#### Executive Dashboard
+
+<img src="screenshots/milestone-4-executive.png" alt="Warehouse Executive Dashboard" width="100%"/>
+
+#### Warehouse Efficiency Report
+
+<img src="screenshots/milestone-4-efficiency.png" alt="Warehouse Efficiency Dashboard" width="100%"/>
+
+#### Performance Optimization Dashboard
+
+<img src="screenshots/milestone-4-optimization.png" alt="Warehouse Performance Optimization Dashboard" width="100%"/>
+
 ## Interactive Reporting Features
 
 The Power BI reports incorporate features designed to support exploratory analysis:
@@ -350,27 +382,7 @@ The Power BI reports incorporate features designed to support exploratory analys
 
 These features allow users to investigate the context behind summary values instead of relying on a single KPI.
 
-## Repository Structure
 
-The following is a suggested repository organization. Adjust the filenames and folders to match the files actually committed to the repository.
-
-```text
-supply-chain-visibility-analytics/
-│
-├── README.md
-├── data/
-│   └── README.md
-├── power-bi/
-│   └── supply-chain-visibility.pbix
-├── documentation/
-│   └── project-documentation.pdf
-├── screenshots/
-│   ├── milestone-1.png
-│   ├── milestone-2.png
-│   ├── milestone-3.png
-│   └── milestone-4.png
-└── LICENSE
-```
 
 The data folder may contain dataset instructions or permitted sample data. Do not commit confidential or restricted datasets.
 
